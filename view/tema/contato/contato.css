@@ -1,0 +1,50 @@
+
+.red{
+    color:red;
+}
+.form-area
+{
+    background-color: #204d74;
+    padding: 10px 40px 60px;
+    margin: 10px 0px 60px;
+    border: 1px solid GREY;
+}
+
+#formulario{
+    background-color: #204d74;
+    color: #ffffff;
+}
+#name{
+    color: #204d74;
+    font-weight: bold;
+}
+#email{
+    color: #204d74;
+    font-weight: bold;
+}
+#subject{
+    color: #204d74;
+    font-weight: bold;
+}
+#message{
+    color: #204d74;
+    font-weight: bold;
+}
+#characterLeft{
+    color: #ffffff;
+}
+#submit{
+    background-color: #FF855D;
+    color: #204d74;
+    font-weight: bold;
+}
+#submit:hover {
+    background-color: #ffffff;
+    color: #204d74;
+    font-weight: bold;
+}
+#submit:focus {
+    background-color: #FFDD60;
+    color: #204d74;
+    font-weight: bold;
+}

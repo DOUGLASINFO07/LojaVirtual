@@ -1,0 +1,15 @@
+<h4 class="text-center">Digite seu email cadatrado para receber uma nova senha </h4>
+<hr>
+<form name="recuperarsenha" method="post" action="">
+    <section>
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <label>Digite seu email cadastrado</label>
+            <input type="email" name="clientes_email" id="clientes_email" class="form-control" required>
+            <br>
+            <button type="submit" class="btn btn-warning btn-block"> Recuperar </button>
+        </div>
+        <div class="col-md-4">
+        </div>
+    </section>
+</form>

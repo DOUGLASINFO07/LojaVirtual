@@ -1,0 +1,106 @@
+#bloco_login_adm{
+ background-color: #fff;
+ border-radius: 15px;
+ margin: 20px;
+ padding-top: 30px;
+}﻿
+
+#teste {
+    width: auto;
+    text-align: center;
+    padding: 5px 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px 8px #adadad;
+}
+
+#topo{
+    min-height: 100px;
+    background-color: #204d74;
+    color: #fff;
+}
+
+#rodape{
+    min-height: 150px;
+    background-color: #204d74;  
+    color: #fff; 
+}
+
+#conteudo{
+    min-height: 450px; 
+}
+
+#lateral{
+    border-right: 1px solid #adadad;
+    height: 100%;
+}
+
+.transparente{
+    opacity: 0.9;   
+}
+
+
+/* CLASSES OVERRIDE DO BOOTSTRAP para personalização*/
+
+/* navbar e menu navbar */
+.navbar-inverse{
+    border-radius: 0;
+}
+
+
+.navbar-inverse .navbar-nav > li > a{
+    color: #fff;
+    font-size: 16px;  
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+    background-color: #000;
+    border-radius: 10px;
+    color: #eb9316;
+}
+
+/* menu lateral com list group*/
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover{
+    background-color: #101010; 
+}
+
+a.list-group-item:hover{
+    background-color: #262626;;
+    color: #FFF;
+}
+
+a.list-group-item{
+    border: 0;
+    font-size: 16px;
+}
+
+#submit{
+    background-color: #FF855D;
+    color: #204d74;
+    font-weight: bold;
+}
+
+div#thumbnail{
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px #adadad;
+}
+
+div#thumbnail_produto_info{
+    border: 0px;
+}
+
+div#page {
+    width: auto;
+    text-align: center;
+    padding: 5px 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px 8px #adadad;
+}
+img {
+    max-width: 100%;
+}
+
+.pagination>li>a{
+    background-color: #204d74;
+    color: #fff;
+}
+
